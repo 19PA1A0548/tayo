@@ -1,0 +1,137 @@
+@import url("~leaflet/dist/leaflet.css");
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.maincontainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.sidebar{
+  flex:20%;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+.btnscontainer{
+  margin-top: 50px;
+}
+.sidebar button{
+  display: block;
+  width: 90%;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+  background-color: #538cee;
+  border: none;
+  padding: 20px 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+h2{
+  text-align: center;
+  margin-top: 30px;
+}
+.mainsection{
+  flex:80%;
+  height: auto;
+  width: 100%;
+}
+.mapcont{
+ margin-top: 50px;
+}
+.leaflet-container {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
+.nocontact{
+  width: 80%;
+  height: 120px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.1rem solid rgb(232, 232, 232);
+  cursor: pointer;
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+  border-color: rgb(232, 232, 232);
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.createcontactbtn button,.contactform button{
+  color: white;
+  background-color: #538cee;
+  border: none;
+  padding: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.createcontactbtn{
+  text-align: center;
+  margin-top: 30px;
+}
+.contactform{
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.1rem solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+  border-color: rgb(232, 232, 232);
+  padding-top: 50px;
+}
+.contactcardscontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+.contactcard{
+  height: 220px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.1rem solid rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+  border-color: rgb(232, 232, 232);
+  margin-top: 30px;
+}
+.contactname{
+  width: 90%;
+  height: 100px;
+  background-color: blue;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.contactname p{
+  padding-top: 40px;
+}
+.contactbtn{
+  width: 250px;
+  cursor: pointer;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.contactbtn:nth-child(2){
+  background-color: red;
+}
